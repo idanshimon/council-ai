@@ -1,0 +1,13 @@
+# Keep these directories but ignore contents (local/sensitive data)
+meetings/agendas/*
+meetings/minutes/*
+meetings/prep/*
+memory/*
+!meetings/agendas/.gitkeep
+!meetings/minutes/.gitkeep
+!meetings/prep/.gitkeep
+!memory/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
